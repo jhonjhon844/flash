@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: flask-backend
+    runtime: python
+    buildCommand: ""
+    startCommand: python app.py
+    envVars:
+      - key: DB_HOST
+        value: sql200.infinityfree.com
+      - key: DB_USER
+        value: if0_38669359
+      - key: DB_PASS
+        value: TZpAGCiMdRLu1H
+      - key: DB_NAME
+        value: if0_38669359_plogin
